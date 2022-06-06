@@ -1,0 +1,286 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Thasadith', sans-serif; 
+}
+
+
+
+header {
+	height: 7vh;
+	width: 100vw;
+	background: #014e2e;
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo {
+	width: 280px;
+	background: #014e2e;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+.logo img {
+	width: 25px;
+	height: 50px;
+}
+.logo span {
+	margin-left: 20px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+
+.nav-log {
+	display: flex;	
+	align-items: center;
+	margin-right: 30px;
+}
+.browse-navigation {
+}
+.browse-navigation ul {
+	display: flex;
+	list-style-type: none;
+}
+.browse-navigation ul li {
+	margin-left: 20px;
+	text-align: center;
+}
+.browse-navigation ul li a {
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 20px;
+	transition: background 0.4s;
+	color: #fff;
+}
+.browse-navigation ul li a:hover {
+	background-color: #c1d42d;
+}
+.container {
+	/*background-color: ;*/
+	width: 80%;
+	margin: 7vh auto 0;
+	padding: 20px 50px 100px 50px;
+}
+
+
+
+
+/*footer*/
+
+footer { 
+	/*padding-top: 350px;*/
+	padding-bottom: 0px;
+	background-color: #f3f5f9;
+}
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.footer p {
+	color: #fff;
+	margin-bottom: 30px;
+	background-color: #014e2e;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	margin-top: 0;
+}
+.footer a {
+	background-color: #c1d42d;
+	color: #f3f5f9;
+	border-radius: 50%;
+	padding: 20px;
+	margin: 10px;
+	margin-bottom: 50px;
+	font-size: 1.5em;
+}
+.social-footer {
+	padding: 20px;
+}
+.home-content {
+	height: 100vh;
+	margin-top: 7vh;
+}
+
+
+/*home-page*/
+.home-image {
+	margin-top: 7vh;
+	/*background: url('../../assets/images/animals/144.png');*/
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: -5px;
+	background-color: #fbffdf;
+	/*opacity: 0.8;*/
+}
+.round-back {
+	padding: 150px 400px;
+	background-image: radial-gradient(#c1d32d 20%, green);
+	border-radius: 200px;
+}
+.home-image a {
+	font-size: 2em;
+	background-color: #014e2e;
+	text-decoration: none;
+	padding: 15px 40px;
+	border-radius: 40px;
+	color: #fff;
+	transition: 1s background, color 1s;
+	/*margin-right: 200px;*/
+}
+.home-image a:hover {
+	background-color: #c1d32d;
+	color: #013e2e;	
+}
+
+
+
+
+
+
+
+
+
+
+/*Animal-Lists*/
+.head-msg {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.link {
+	margin-bottom: 20px;
+}
+.link a {
+	background-color: #c1d42d;
+	text-decoration: none;
+	padding: 20px 30px;
+	display: flex;
+	color: #fff;
+}
+.link a img {
+	width: 150px;
+	height: 150px;
+	border-radius: 20px;
+}
+.animalshortdetail {
+	margin-left: 20px;
+}
+.link:hover {
+	border-left: 8px solid #014e2e;
+}
+
+.animalshortdetail h2, .animalshortdetail p {
+	margin: 0;
+}
+.animalshortdetail h2 {
+	color: #696969;
+	margin-bottom: 10px;
+} 
+.animalshortdetail p {
+	margin-bottom: 5px;
+}
+
+
+
+/*searchbar*/
+.head-search form select {
+	border: none;
+	padding: 8px 13px;
+	border-radius: 10px;
+	background-color: #f3f5f9;
+}
+.head-search form input {
+	padding: 8px 13px;
+	border: none;
+	border-radius: 10px;
+	background-color: #f3f5f9;
+}
+.head-search form button {
+	padding: 8px 20px;
+	border: none;
+	background-color: #014e2e;
+	border-radius: 10px;
+	color: #fff;
+}
+.head-search form button:hover {
+	background-color: #013e1e;
+}
+
+
+
+
+
+/*animal-info*/
+.animal-info {
+	margin-top: 50px;
+	text-align: center;
+}
+.ai-img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.align-info > div {
+	margin: 10px auto;
+	display: flex;
+}
+.align-info > div span {
+	flex: 1;
+}
+.align-info > div span:first-child {
+	text-align: right;
+	margin-right: 10px;
+}
+.align-info > div span:last-child {
+	text-align: left;
+	margin-left: 10px;
+}
+
+
+.anml-title {
+	background-color: #c1d32d;
+	padding: 10px;
+	border-radius: 5px;
+	width: 50%;
+	margin: 10px auto;
+	display: flex;
+	justify-content: center;
+}
+
+.si-img {
+	height: 150px;
+	width: 200px;
+	border-radius: 5pxs;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+
+
+/*zoo-map*/
+.zoo-map {
+	display: flex;
+	justify-content: center;
+	margin: 40px auto 50px;
+	padding-bottom: 20px;
+}
+
